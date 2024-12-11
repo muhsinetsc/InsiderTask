@@ -15,8 +15,5 @@ class HomePage(BasePage):
     def click_company_button(self):
         self.click_to_element(CLICK_COMPANY_BUTTON)
         
-        
     def click_careers_button(self):
         self.click_to_element(CLICK_CAREERS_BUTTON)
-    
-        

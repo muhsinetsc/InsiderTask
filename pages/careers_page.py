@@ -23,6 +23,3 @@ class CareersPage(BasePage):
 
     def hover_life_at_insider_block(self):
         self.hover_over_element(LIFE_AT_INSIDER_BLOCK)
-
-    
-

@@ -1,6 +1,5 @@
 import pytest
 from pages.base_page import *
-from constants.job_page_locator import *
 
 @pytest.mark.usefixtures("setup")
 class JobPage(BasePage):

@@ -24,9 +24,6 @@ class QualityAssurancePage(BasePage):
     def click_istanbul_turkey(self):
         self.click_to_element(CLICK_ISTANBUL_TURKEY)
 
-    def wait_view_button(self):
-        self.wait_for_element_presence(VIEW_ROLE_BUTTON)
-
     def click_view_role_button(self):
         self.get_element_index(0,VIEW_ROLE_BUTTON)
         self.hover_over_element_click(VIEW_ROLE_BUTTON)
@@ -34,7 +31,3 @@ class QualityAssurancePage(BasePage):
     def hover_job(self):
         self.hover_over_element(LOCATION)
         time.sleep(2)
-        
-    
-
-    
